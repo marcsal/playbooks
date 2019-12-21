@@ -1,0 +1,9 @@
+---
+- hosts: all
+  remote_user: marcos
+  become: true
+  become_user: root
+  become_method: sudo
+  roles:
+          #    - { role: role-base, user: "marcos" }
+    - { role: role-laptop, user: "marcos" }
