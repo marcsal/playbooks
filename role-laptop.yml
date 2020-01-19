@@ -5,4 +5,4 @@
   become_user: root
   become_method: sudo
   roles:
-    - { role: role-laptop, user: "marcos", vbox: True }
+    - { role: role-laptop, user: "marcos" }
