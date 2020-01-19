@@ -1,8 +1,8 @@
 ---
 - hosts: all
-  remote_user: marcos
+  remote_user: user
   become: true
   become_user: root
   become_method: sudo
   roles:
-    - { role: role-base, user: "marcos", sshkey: "/home/marcos/.ssh/id_rsa.pub", sshroot: False }
+    - { role: role-base }
