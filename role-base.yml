@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  remote_user: marcos
+  remote_user: marcsal
   become: true
   become_user: root
   become_method: sudo

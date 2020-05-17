@@ -1,0 +1,13 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "AVISOS_3",
+            "dialect": "MSSQL",
+            "name": "es1testsql01f.sp.securitasdirect.local\\INSTANCE01",
+            "password": "p4Ssw0rz",
+            "port": 1433,
+            "server": "es1testsql01f.sp.securitasdirect.local\\INSTANCE01",
+            "username": "despliegue"
+        }
+    ]
+}
