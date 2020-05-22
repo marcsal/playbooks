@@ -1,3 +1,4 @@
 ---
 # from galaxy
 - src: marcsal.role_base
+- src: marcsal.role_jenkins
