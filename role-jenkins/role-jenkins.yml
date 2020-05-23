@@ -5,4 +5,4 @@
   become_user: root
   become_method: sudo
   roles:
-    - { role: marcsal.role-jenkins }
+    - { role: marcsal.role_jenkins }
