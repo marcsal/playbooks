@@ -1,5 +1,5 @@
 ---
-- hosts: fedora31-lp01
+- hosts: all
   gather_facts: yes
   become: false
   tasks:
